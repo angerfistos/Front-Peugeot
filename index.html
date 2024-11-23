@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./src/output.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body class="font-roboto text-base text-white">
+    <!-- Header -->
+    <header class="mx-auto mb-8 uppercase">
+        <div class="flex bg-[#172133] p-4 gap-4 items-center">
+            <img src="./img/logo.png" alt="Logo" class="w-8 h-8">
+            <nav class="flex-1">
+                <ul class="flex justify-center gap-4">
+                    <li class="hover:underline underline-offset-4"><a href="#">Gamme</a></li>
+                    <li class="hover:underline underline-offset-4"><a href="#">Professionnel</a></li>
+                    <li class="hover:underline underline-offset-4"><a href="#">Occasions</a></li>
+                    <li class="hover:underline underline-offset-4"><a href="#">Financement et services</a></li>
+                    <li class="hover:underline underline-offset-4"><a href="#">Après-vente</a></li>
+                    <li class="hover:underline underline-offset-4"><a href="#">Contact</a></li>
+                    <li class="hover:underline underline-offset-4"><a href="#">Innovations</a></li>
+                    <li class="hover:underline underline-offset-4"><a href="#">Offres</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- Hero Section -->
+        <section id="hero" class="relative">
+            <img src="./img/slider.jpg" class="w-full" alt="bannière">
+            <button class="bottom-12 -right-12 absolute px-4 py-2 uppercase transform -translate-x-1/2 -translate-y-1/2 bg-blue-500">
+                Découvrir Les offres
+            </button>
+        </section>
+    </header>
+
+    <!-- CTA Section -->
+    <div id="CTA" class="bg-[#172133] text-white text-center py-8 uppercase">
+        <h2 class="mb-4 text-xl">Allez plus loin</h2>
+        <div class="sm:flex-row flex flex-col items-center justify-center gap-4">
+            <!-- CTA Items -->
+            <a href="#" class="h-36 flex flex-col items-center justify-center w-40 gap-4 p-4 bg-blue-500">
+                <img src="./img/icon1.png" class="w-8 h-8">
+                <p>Faites un Essai</p> 
+            </a>
+            <a href="#" class="h-36 flex flex-col items-center justify-center w-40 gap-4 p-4 bg-blue-500">
+                <img src="./img/icon2.png" class="w-8 h-8">
+                <p>Trouvez un<br> véhicule de stock</p> 
+            </a>
+            <a href="#" class="h-36 flex flex-col items-center justify-center w-40 gap-4 p-4 bg-blue-500">
+                <img src="./img/icon3.png" class="w-8 h-8">
+                <p>Recevez une estimation de<br>reprise</p> 
+            </a>
+            <a href="#" class="h-36 flex flex-col items-center justify-center w-40 gap-4 p-4 bg-blue-500">
+                <img src="./img/icon4.png" class="w-8 h-8">
+                <p>Trouver un point<br>de vente</p> 
+            </a>
+        </div>
+    </div>
+
+    <!-- Offres Moment Section -->
+    <div class="container py-8 mx-auto text-center text-black">
+        <h2 class="mb-8 text-2xl uppercase">Offres du moment</h2>
+        <div id="card-all" class="sm:grid-cols-3 grid grid-cols-1 gap-4">
+            <!-- Cards -->
+            <div id="card1" class="flex flex-col gap-4 p-4">
+                <img src="./img/momentCar1.jpg" class="w-full" alt="offre1">
+                <div class="flex flex-col items-start">
+                    <h3 class="mb-2 uppercase">SUV 2008</h3>
+                    <p>A partir de 13 390 €</p>
+                    <button class="p-4 uppercase bg-[#133D5F] text-white mt-4">J'en profite</button>
+                </div>
+            </div>
+            <div id="card2" class="flex flex-col gap-4 p-4">
+                <img src="./img/momentCar2.jpg" class="w-full" alt="offre2">
+                <div class="flex flex-col items-start">
+                    <h3 class="mb-2 uppercase">SUV 3008</h3>
+                    <p>Avantage jusqu'à 5 100 €</p>
+                    <button class="p-4 uppercase bg-[#133D5F] text-white mt-4">J'en profite</button>
+                </div>
+            </div>
+            <div id="card3" class="flex flex-col gap-4 p-4">
+                <img src="./img/momentCar3.jpg" class="w-full" alt="offre3">
+                <div class="flex flex-col items-start">
+                    <h3 class="mb-2 uppercase">SUV 5008</h3>
+                    <p>Avantage jusqu'à 5 000 €</p>
+                    <button class="p-4 uppercase bg-[#133D5F] text-white mt-4">J'en profite</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Best Sellers Section -->
+    <div class="container py-8 mx-auto text-center text-black">
+        <h2 class="mb-8 text-2xl uppercase">Nos Best sellers</h2>
+        <div id="best-all" class="sm:grid-cols-3 grid grid-cols-1 gap-4 text-white uppercase">
+            <!-- Best Sellers Items -->
+            <div id="best1" class="flex flex-col items-center p-4">
+                <img src="./img/bestCar1.png" class="max-h-56 object-cover w-full h-auto" alt="bestSeller1">
+                <h3 class="mt-4 mb-2 uppercase">SUV 3008</h3>
+                <button class="p-4 uppercase bg-[#005C9E] text-white mt-4">J'en profite</button>
+            </div>
+            <div id="best2" class="flex flex-col items-center p-4">
+                <img src="./img/bestCar2.png" class="max-h-56 object-cover w-full h-auto" alt="bestSeller2">
+                <h3 class="mt-4 mb-2 uppercase">SUV 5008</h3>
+                <button class="p-4 uppercase bg-[#005C9E] text-white mt-4">J'en profite</button>
+            </div>
+            <div id="best3" class="flex flex-col items-center p-4">
+                <img src="./img/bestCar3.png" class="max-h-56 object-cover w-full h-auto" alt="bestSeller3">
+                <h3 class="mt-4 mb-2 uppercase">SUV 2008</h3>
+                <button class="p-4 uppercase bg-[#005C9E] text-white mt-4">J'en profite</button>
+            </div>
+        </div>
+    </div>    
+<!-- Actualité Section -->
+<div class="container py-8 mx-auto text-center text-black">
+    <h2 class="mb-8 text-2xl uppercase">Actualité</h2>
+    <div class="sm:flex justify-center gap-4">
+        <!-- Article 1 -->
+        <div class="sm:w-1/2 flex flex-col w-full gap-4 p-4">
+            <img src="./img/actu1.jpg" class="w-full" alt="actualité1">
+            <div class="flex flex-col items-start">
+                <h3 class="mb-2 uppercase">New SUV Peugeot 2008</h3>
+                <p class="text-left">Découvrez le nouveau PEUGEOT 2008, le SUV compact et polyvalent au design exaltant, offrant une expérience de conduite étendue, avec l'innovant PEUGEOT i-Cockpit® 3D, des technologies haut de gamme et un choix de motorisations performantes et efficientes, en thermique ef en électrique.</p>
+                <button class="p-4 uppercase bg-[#133D5F] text-white mt-4">Tenez moi au courant</button>
+            </div>
+        </div>
+        <!-- Article 2 -->
+        <div class="sm:w-1/2 flex flex-col w-full gap-4 p-4">
+            <img src="./img/actu2.jpg" class="w-full" alt="actualité2">
+            <div class="flex flex-col items-start">
+                <h3 class="mb-2 uppercase">Des questions mobilité ?</h3>
+                <p class="text-left">
+                    Entre les changements de législation, l'apparition de zones à circulation restreinte, de nouvelles motorisations, de technologies d'assistance toujours plus poussées et les évolutions qui s'opèrent sur le marché, l'automobile est entrée dans une phase de transition pratiquement sans précédent dans l'histoire. Et il est donc compliqué pour les utilisateurs de s'y retrouver et de faire le bon choix. En ce mois de septembre, Peugeot a lancé son tout nouveau guide mobilité en ligne :
+www.guidemobilite.be
+                </p>
+                <button class="p-4 uppercase bg-[#133D5F] text-white mt-4">Découvrez le guide mobilité</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- Footer Section -->
+<footer class="bg-[#F5F5F5] text-black py-8 mx-8">
+    <div class="sm:text-left sm:grid-cols-3 container grid grid-cols-1 gap-8 px-4 mx-auto text-center">
+        <!-- Besoin d'aide -->
+        <div>
+            <h4 class="mb-4 uppercase">Besoin d'aide ?</h4>
+            <ul class="space-y-2">
+                <li><a href="#" class="hover:underline text-gray-600">Contact</a></li>
+                <li><a href="#" class="hover:underline text-gray-600">FAQ</a></li>
+                <li><a href="#" class="hover:underline text-gray-600">Assistance</a></li>
+                <li><a href="#" class="hover:underline text-gray-600">Points de vente</a></li>
+            </ul>
+        </div>
+        <!-- Gamme Peugeot -->
+        <div>
+            <h4 class="mb-4 uppercase">Gamme Peugeot</h4>
+            <ul class="space-y-2">
+                <li><a href="#" class="hover:underline text-gray-600">Citadines</a></li>
+                <li><a href="#" class="hover:underline text-gray-600">Berlines</a></li>
+                <li><a href="#" class="hover:underline text-gray-600">SUV</a></li>
+                <li><a href="#" class="hover:underline text-gray-600">Familiales</a></li>
+                <li><a href="#" class="hover:underline text-gray-600">Sportives</a></li>
+                <li><a href="#" class="hover:underline text-gray-600">Utilitaires</a></li>
+            </ul>
+        </div>
+        <!-- Contact -->
+        <div class="flex flex-col items-center text-center">
+            <h4 class="mb-4 uppercase">Contactez notre service client</h4>
+            <p class="mb-4 text-gray-600">078 15 16 15</p>
+            <div class="w-max flex justify-center p-2 bg-white">
+                <ul class="flex justify-center mt-4 space-x-4">
+                    <li><a href="#" class="text-gray-600"><img src="./img/facebook.svg" alt="Facebook" class="w-6 h-6"></a></li>
+                    <li><a href ="#" class="text-gray-600"><img src="./img/youtube.svg" alt="Youtube" class="w-6 h-6"></a></li>
+                    <li><a href="#" class="text-gray-600"><img src="./img/instagram.svg" alt="Instagram" class="w-6 h-6"></a></li>
+                    <li><a href="#" class="text-gray-600"><img src="./img/linkedin.svg" alt="LinkedIn" class="w-6 h-6"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="flex flex-col w-full gap-4 px-12 mt-8 text-center">
+        <div class="flex">
+            <div class="w-[65%] bg-blue-500 p-4 h-14 text-white mr-2">
+                <p>
+                    Marque et technologie
+                </p>
+            </div>
+            <div class="w-[35%] bg-white p-4">
+                <p>
+                    Recevez une estimation de reprise
+                </p>
+            </div>
+        </div>
+        <div class="h-14 w-full bg-white"> 
+        </div>     
+    </div>
+</footer>
+    <div class="bold py-4 mt-8 text-sm text-center text-gray-500">
+        <ul class="flex justify-center gap-4">
+            <li><a href="#">Informations légales</a></li>
+            <li><a href="#">Poltique de confidentialité</a></li>
+            <li><a href="#">Cookie</a></li>
+            <li><a href="#">Mentions légales données pe>rsonnels</a></li>
+            <li><a href="#">Sponsoring</a></li>
+        </ul>
+    </div>
+</body>
+</html>
